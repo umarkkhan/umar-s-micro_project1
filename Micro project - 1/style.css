@@ -1,0 +1,172 @@
+.container {
+  width:800px;
+  height:550px;
+  background-color: #FFCD9E;
+  margin:auto;
+  justify-content: center;
+  align-items: center;
+
+}
+.top-section{
+    width:100%;
+    height: 70%;
+    display:flex;
+}
+.div1{
+    width:60%;
+}
+.div1 h2{
+    font:inter;
+    font-weight:900;
+    font-size:26px;
+    padding-top:20px;
+    padding-left:70px;
+    color:#282828;
+}
+.div1 p{
+    font:inter;
+    font-weight:200;
+    font-size:18px;
+    padding-left:70px;
+    color: #484848;
+
+}
+.div1 b{
+    font:inter;
+    font-weight:600;
+    font-size:20px;
+    padding-left:70px;
+    color: #282828;
+
+}
+.form{
+    padding-left:70px;
+    padding-top:30px;
+}
+.form input{
+    padding:10px;
+    border:2px solid black;
+    border-radius:5px;
+}
+.form button{
+    padding:10px 20px;
+    border:2px solid black;
+    border-radius:5px;
+    font-weight:700;
+    background:black;
+    color:white;
+}
+.div1 span{
+    font:inter;
+    font-weight:500;
+    padding-left:90px;
+    font-size:13px;
+    color:#FFFFFF;
+}
+.div2{
+    background-image: url("images/dweep io 1.png");
+    background-repeat: no-repeat;
+    background-size: contain;  
+    width:40%;
+}
+.footer {
+    background-color: #282828;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20;
+    font-weight: 400;
+    overflow:hidden;
+  }
+  ul {
+    list-style-type: none;
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  ul li{
+    font-weight:400;
+    font-size:13px;
+    color:#FFFFFF;
+    font-family:inter;
+  }
+  .footer-right {
+    text-align: right;
+    width:50%;
+    padding-right:100px;
+  }
+  .footer-left{
+    text-align: left;
+    width:50%;
+    padding-left:80px;
+  }
+  li i {
+    color: #FFCD9E;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 100%;
+      height: auto;
+    }
+    
+    .top-section {
+      flex-direction: column;
+      height: auto;
+    }
+    
+    .div1, .div2 {
+      width: 100%;
+      padding: 0;
+    }
+    
+    .div1 h2, .div1 p, .div1 b {
+      padding-left: 20px;
+      font-size: 22px; /* Adjusted font size */
+    }
+    
+    .form {
+      padding-left: 20px;
+      padding-top: 20px;
+    }
+    
+    .div1 span {
+      padding-left: 20px;
+      font-size: 12px; /* Adjusted font size */
+    }
+    
+    .footer {
+      flex-direction: column;
+      text-align: center;
+      height: auto;
+      padding: 20px 0;
+    }
+    
+    .footer-left, .footer-right {
+      width: 100%;
+      padding: 0;
+    }
+    
+    .footer-right {
+      padding-top: 20px;
+    }
+    
+    ul {
+      flex-direction: row;
+      justify-content: center;
+      gap: 20px;
+      padding: 0;
+    }
+    
+    ul li {
+      font-size: 12px; /* Adjusted font size */
+    }
+    
+    li i {
+      font-size: 20px; /* Adjusted icon size */
+    }
+  }
+  
